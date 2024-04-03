@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 
-/* Reset de estilos */
 * {
     margin: 0;
     padding: 0;
@@ -85,7 +84,6 @@ nav ul li a:hover {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.26);
     z-index: 1;
-    /* Ajuste a opacidade conforme necessário */
 }
 
 #hero h2 {
