@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mãos Solidárias - Trabalho Voluntário</title>
+    <link rel="stylesheet" href="estilos.css">
+    <!--Link JQuery-->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Mãos Solidárias</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#initiatives">Iniciativas</a></li>
+                    <li><a href="#testimonials">Depoimentos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="capa"></div>
+        <div class="container">
+            <h2 class="titulo">Promovendo Mudanças na Sociedade</h2>
+            <p>Nossa missão é tornar o mundo um lugar melhor, promovendo valores como empatia, solidariedade e
+                sustentabilidade.</p>
+            <a href="#contact" class="btn">Junte-se a nós</a>
+        </div>
+    </section>
+
+
+    <section id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/img4.jpg" alt="Voluntários trabalhando juntos">
+                </div>
+                <div class="about-text">
+                    <h2>Sobre a Mãos Solidárias</h2>
+                    <p>A Mãos Solidárias foi fundada em 2010 por um grupo de amigos apaixonados por fazer o bem. Desde
+                        então, temos trabalhado incansavelmente para promover mudanças positivas em nossa sociedade
+                        através do voluntariado.</p>
+                    <p>Nossos voluntários vêm de diversas origens e trazem consigo uma variedade de habilidades e
+                        talentos. Acreditamos que, juntos, podemos criar um impacto significativo e inspirar outros a se
+                        juntarem a nós nesta jornada de serviço à comunidade.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="initiatives">
+        <div class="container">
+            <h2>Nossas Iniciativas</h2>
+            <p>Aqui destacamos algumas das iniciativas que estamos liderando para promover mudanças positivas:</p>
+            <div class="noticia-filter container">
+                <span class="filter-item active-filter" data-filter="todos">Todos</span>
+                <span class="filter-item" data-filter="educacao">Educação</span>
+                <span class="filter-item" data-filter="ambiental">Ambiental</span>
+                <span class="filter-item" data-filter="alimentos">Alimentos</span>
+            </div>
+
+            <section class="noticia container">
+
+                <div class="noticia-box educacao">
+                    <img src="images/img5.jpg" alt="" class="noticia-img">
+                    <h2 class="categoria">Educação</h2>
+                    <a href="" class="noticia-title">
+                        Programa de Alfabetização Infantil
+                    </a>
+                    <span class="noticia-data">10 Mar 2024</span>
+                    <p class="noticia-description"> Oferecer aulas de leitura e escrita para crianças de comunidades
+                        carentes, visando melhorar suas habilidades de alfabetização e promover a educação desde cedo.
+                    </p>
+
+                    <div class="autora">
+                        <img src="images/img8.jpg" alt="" class="autor-img">
+                        <span class="autora-nome">Mãos Solidárias</span>
+                    </div>
+                </div>
+
+                <div class="noticia-box ambiental">
+                    <img src="images/img6.jpg" alt="" class="noticia-img">
+                    <h2 class="categoria">Ambiental</h2>
+                    <a href="" class="noticia-title">
+                        Limpeza de Praias e Rios
+                    </a>
+                    <span class="noticia-data">10 Mar 2024</span>
+                    <p class="noticia-description"> Organizar eventos de limpeza em praias e rios locais para
+                        conscientizar sobre a importância da preservação ambiental e do combate à poluição dos recursos
+                        hídricos.
+                    </p>
+
+                    <div class="autora">
+                        <img src="images/img8.jpg" alt="" class="autor-img">
+                        <span class="autora-nome">Mãos Solidárias</span>
+                    </div>
+                </div>
+
+                <div class="noticia-box alimentos">
+                    <img src="images/img7.jpg" alt="" class="noticia-img">
+                    <h2 class="categoria">Alimentos</h2>
+                    <a href="" class="noticia-title">
+                        Doação de Alimentos
+                    </a>
+                    <span class="noticia-data">10 Mar 2024</span>
+                    <p class="noticia-description">Estabelecer parcerias com supermercados e restaurantes para recolher
+                        alimentos excedentes e distribuí-los para famílias necessitadas, combatendo a fome e o
+                        desperdício alimentar.</p>
+
+                    <div class="autora">
+                        <img src="images/img8.jpg" alt="" class="autor-img">
+                        <span class="autora-nome">Mãos Solidárias</span>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h2>Depoimentos</h2>
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <p>"Participar das iniciativas da Mãos Solidárias tem sido uma experiência transformadora! Cada
+                        evento de voluntariado me proporciona a oportunidade de fazer a diferença na vida das pessoas e
+                        contribuir para um mundo melhor. Estou muito grata por fazer parte dessa comunidade de pessoas
+                        incríveis que estão verdadeiramente comprometidas com a mudança positiva."</p>
+                    <cite>Joana Silva</cite>
+                </div>
+                <div class="testimonial-image">
+                    <img src="images/img9.jpg" alt="Foto de Joana Silva">
+                </div>
+            </div>
+
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <p>"Nunca imaginei que poderia ter um impacto tão significativo na minha comunidade até me envolver
+                        com a Mãos Solidárias. Desde o primeiro dia de voluntariado, tenho visto como pequenas ações
+                        podem gerar grandes mudanças. Estou orgulhoso de fazer parte dessa jornada de empoderamento e
+                        solidariedade."</p>
+                    <cite>João Santos</cite>
+                </div>
+                <div class="testimonial-image">
+                    <img src="images/img10.jpg" alt="Foto de Joana Silva">
+                </div>
+            </div>
+
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <p>"Os programas de voluntariado da Mãos Solidárias não apenas me deram a oportunidade de ajudar os
+                        outros, mas também me ajudaram a crescer pessoalmente. Cada atividade me ensina algo novo e me
+                        conecta com pessoas maravilhosas que compartilham os mesmos valores e objetivos. Estou
+                        emocionada em continuar contribuindo para um futuro mais justo e inclusivo."</p>
+                    <cite>Ana Oliveira</cite>
+                </div>
+                <div class="testimonial-image">
+                    <img src="images/img11.jpg" alt="Foto de Joana Silva">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <form id="contact-form" class="contact-form">
+                <input type="text" name="name" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu Email" required>
+                <textarea name="message" placeholder="Sua Mensagem" required></textarea>
+                <button type="submit" class="btn">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Mãos Solidárias. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
